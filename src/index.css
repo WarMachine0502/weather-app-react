@@ -1,10 +1,16 @@
+* {
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+
 body {
+  scroll-behavior: smooth;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Roboto", Arial !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ffdcb4;
 }
 
 code {
